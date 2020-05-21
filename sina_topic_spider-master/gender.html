@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="7352abc58d9a41a48dbb028e93b398c8" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_7352abc58d9a41a48dbb028e93b398c8 = echarts.init(
+            document.getElementById('7352abc58d9a41a48dbb028e93b398c8'), 'white', {renderer: 'canvas'});
+        var option_7352abc58d9a41a48dbb028e93b398c8 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "red",
+        "blue"
+    ],
+    "series": [
+        {
+            "type": "pie",
+            "clockwise": true,
+            "data": [
+                {
+                    "name": "\u7537",
+                    "value": 18
+                },
+                {
+                    "name": "\u5973",
+                    "value": 17
+                }
+            ],
+            "radius": [
+                "0%",
+                "75%"
+            ],
+            "center": [
+                "50%",
+                "50%"
+            ],
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8,
+                "formatter": "{b}: {c}"
+            },
+            "rippleEffect": {
+                "show": true,
+                "brushType": "stroke",
+                "scale": 2.5,
+                "period": 4
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u7537",
+                "\u5973"
+            ],
+            "selected": {},
+            "show": true
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u6027\u522b\u5206\u6790"
+        }
+    ]
+};
+        chart_7352abc58d9a41a48dbb028e93b398c8.setOption(option_7352abc58d9a41a48dbb028e93b398c8);
+    </script>
+</body>
+</html>
